@@ -64,7 +64,7 @@ const handleEdit =(id)=>{
 }
 
 const handleDelete =(id)=>{
-  if(window.confirm("Are You Sure to delete this Employee")==true)
+  if(window.confirm("Are You Sure to delete this Employee") === true)
    { 
     
     alert(id);
