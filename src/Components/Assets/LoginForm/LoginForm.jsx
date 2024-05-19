@@ -59,7 +59,7 @@ const LoginForm = () => {
         </div>
         <div className="remember-forgot">
            <label><input type='checkbox' /> Rememeber Me</label>
-           <a href='#'>Forgot Password</a>
+           {/* <a href='/'>Forgot Password</a> */}
         </div>
         <button type="submit" onClick={handleSubmit}>Login</button>
     </div>
